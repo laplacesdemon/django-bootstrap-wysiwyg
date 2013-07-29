@@ -64,14 +64,14 @@
     </div>
     {% endif %}
     {% if "speech" in toolbar_items %}
-        <input type="text" class="voiceBtn" data-edit="inserttext" x-webkit-speech="">
+        <input type="text" class="voiceBtn" data-edit="inserttext" x-webkit-speech="" />
     {% endif %}
 </div>
 
-<div {% for name, attr_value in attrs.items %}{{ name }}="{{ attr_value }}" {% endfor %}>
+<div {% for name, attr_value in attrs.items %}{{ name }}="{{ attr_value }}" {% endfor %} >
     {{ value|default:""|safe }}
 </div>
-<input type="hidden" name="{{ name }}" id="input-{{ attrs.id }}" value="{{ value|default:""|safe }}" />
+<input type="hidden" name="{{ name }}" id="input-{{ attrs.id }}" value='{{ value|default:"" }}' />
 <script>
     function refresh_input() {
         var html = $("#{{ attrs.id }}").cleanHtml();
