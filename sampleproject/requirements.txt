@@ -1,0 +1,4 @@
+Django==1.5.1
+beautifulsoup4==4.2.1
+git+https://github.com/laplacesdemon/django-activelink.git
+django-debug-toolbar==0.9.4

@@ -1,0 +1,13 @@
+logs
+media
+*.pyc
+*.pyo
+.DS_Store
+venv
+*.db
+*.swp
+.ropeproject
+*_generated_media*
+covhtml
+.coveragerc
+.noseids

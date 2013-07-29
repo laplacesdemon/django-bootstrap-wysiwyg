@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Sample Form</h1>
+<div class="alert alert-info">
+    <p>Go ahead and play with it, drag and drop some image and save it</p>
+</div>
+<form method="post" action="" enctype="multipart/form-data">{% csrf_token %}
+    {{ form }}
+    <input type="submit" class="btn btn-primary" />
+</form>
+{% endblock %}
