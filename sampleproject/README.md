@@ -13,6 +13,11 @@ Use following to set up the project
     source venv/bin/activate
     pip install -r requirements.txt 
 
+Then run it
+
+    python manage.py syncdb
+    python manage.py runserver
+
 Dependencies
 ------------
 
