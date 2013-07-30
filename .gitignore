@@ -11,3 +11,4 @@ venv
 covhtml
 .coveragerc
 .noseids
+sampleproject/test_db

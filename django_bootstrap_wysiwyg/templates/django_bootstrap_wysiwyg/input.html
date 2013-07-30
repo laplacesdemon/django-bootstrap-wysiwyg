@@ -68,7 +68,7 @@
     {% endif %}
 </div>
 
-<div {% for name, attr_value in attrs.items %}{{ name }}="{{ attr_value }}" {% endfor %} >
+<div {% for name, attr_value in attrs.items %}{{ name }}="{{ attr_value }}" {% endfor %}>
     {{ value|default:""|safe }}
 </div>
 <input type="hidden" name="{{ name }}" id="input-{{ attrs.id }}" value='{{ value|default:"" }}' />
