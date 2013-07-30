@@ -11,6 +11,13 @@ The wysiwyg editor is very lightweight. See dependencies and usage sections for 
 
 See http://mindmup.github.io/bootstrap-wysiwyg/ for details of the editor.
 
+Continuous Integration
+---------------------
+
+[![Build Status](https://travis-ci.org/laplacesdemon/django-bootstrap-wysiwyg.png?branch=master)](https://travis-ci.org/laplacesdemon/django-bootstrap-wysiwyg)
+
+Visit https://travis-ci.org/laplacesdemon/django-bootstrap-wysiwyg for details 
+
 Installation
 ------------
 
