@@ -80,3 +80,8 @@ Dependencies
 * jQuery http://jquery.com/
 * jQuery HotKeys https://github.com/jeresig/jquery.hotkeys
 * Bootstrap http://twitter.github.com/bootstrap/
+
+Adding new toolbar buttons
+--------------------------
+
+See https://developer.mozilla.org/en/docs/Rich-Text_Editing_in_Mozilla
