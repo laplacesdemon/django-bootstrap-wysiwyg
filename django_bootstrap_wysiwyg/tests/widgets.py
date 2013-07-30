@@ -13,7 +13,6 @@ class WysiwygInputTests(TestCase):
 
         self.assertIn("my value", html)
         self.assertIn('class="editor"', html)
-        self.assertIn('<div id="id_message" class="editor" >', html)
 
         message = soup.find(id="id_message")
         self.assertEqual(message.attrs, {'id': 'id_message', 'class': ['editor']})
