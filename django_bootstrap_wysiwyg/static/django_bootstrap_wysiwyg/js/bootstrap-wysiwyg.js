@@ -105,7 +105,7 @@
 			bindToolbar = function (toolbar, options) {
 				toolbar.find(toolbarBtnSelector).click(function () {
 					restoreSelection();
-					editor.focus();
+					//editor.focus();
 					execCommand($(this).data(options.commandRole));
 					saveSelection();
 				});
@@ -116,7 +116,7 @@
 					this.value = '';
 					restoreSelection();
 					if (newValue) {
-						editor.focus();
+						//editor.focus();
 						execCommand($(this).data(options.commandRole), newValue);
 					}
 					saveSelection();
@@ -140,6 +140,15 @@
 					saveSelection();
 					this.value = '';
 				});
+
+				toolbar.find('input[type=color][data-' + options.commandRole + ']').on("change", function() {
+                    var color = $(this).val();
+                    var command = $(this).data(options.commandRole) + " " + color;
+					restoreSelection();
+					//editor.focus();
+					execCommand(command);
+					saveSelection();
+                });
 			},
 			initFileDrops = function () {
 				editor.on('dragenter dragover', false)
