@@ -92,3 +92,7 @@ Adding new toolbar buttons
 --------------------------
 
 See https://developer.mozilla.org/en/docs/Rich-Text_Editing_in_Mozilla
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/laplacesdemon/django-bootstrap-wysiwyg/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
