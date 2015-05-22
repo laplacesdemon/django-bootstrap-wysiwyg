@@ -57,7 +57,7 @@ Wysiwyg editor has an optional toolbar. You can determine what features you want
 The default setting for toolbar is `WYSIWYG_DEFAULT_TOOLBAR_ITEMS`. Just add or remove the items as you wish.
 Following is the default value of it.
 
-    WYSIWYH_DEFAULT_TOOLBAR_ITEMS = [
+    WYSIWYG_DEFAULT_TOOLBAR_ITEMS = [
         'fonts', 
         'font_size', 
         'font_weights', 
