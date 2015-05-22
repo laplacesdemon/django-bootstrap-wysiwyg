@@ -32,7 +32,7 @@ or directly frop the source
 Usage
 -----
 
-Add `django-bootstrap-wysiwyg` to your APPS.
+Add `django_bootstrap_wysiwyg` to your APPS.
 
 Make sure that you add dependency javascripts (bootstrap, jquery, this apps js file) before rendering the form. 
 
