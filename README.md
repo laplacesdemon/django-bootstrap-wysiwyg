@@ -32,7 +32,7 @@ or directly frop the source
 Usage
 -----
 
-Add `django-bootstrap-wysiwyg` to your APPS.
+Add `django_bootstrap_wysiwyg` to your APPS.
 
 Make sure that you add dependency javascripts (bootstrap, jquery, this apps js file) before rendering the form. 
 
@@ -57,7 +57,7 @@ Wysiwyg editor has an optional toolbar. You can determine what features you want
 The default setting for toolbar is `WYSIWYG_DEFAULT_TOOLBAR_ITEMS`. Just add or remove the items as you wish.
 Following is the default value of it.
 
-    WYSIWYH_DEFAULT_TOOLBAR_ITEMS = [
+    WYSIWYG_DEFAULT_TOOLBAR_ITEMS = [
         'fonts', 
         'font_size', 
         'font_weights', 
